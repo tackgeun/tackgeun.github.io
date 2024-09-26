@@ -2,288 +2,243 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-64440901-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+        ga('create', 'UA-64440901-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
     <title>Tackgeun You</title>
 
+    <link rel="stylesheet" href="css/pure-min.css">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/grids-responsive-min.css">
+    <!--<![endif]-->
     
-
-
-<link rel="stylesheet" href="css/pure-min.css">
-
-
-
-<!--[if lte IE 8]>
-  
-    <link rel="stylesheet" href="css/grids-responsive-old-ie-min.css">
-  
-<![endif]-->
-<!--[if gt IE 8]><!-->
-  
-    <link rel="stylesheet" href="css/grids-responsive-min.css">
-  
-<!--<![endif]-->
-
-
-
-  
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/blog.css">
-    <!--<![endif]-->
-  
+    <!--<![endif]-->    
 
-
-
-
-    
-
-<style>
-	#profile_img {float: left; margin-right: 20px; }
-	#profile_contents {margin-left: 10px; text-align: middle; font-family: "Times New Roman";}
-</style>    
-
-    
+    <style>
+        #profile_img {float: left; margin-right: 20px; }
+        #profile_contents {margin-left: 10px; text-align: middle; font-family: "Times New Roman";}
+    </style>       
 
 </head>
+
 <body>
+    <div id="layout" class="pure-g">
+        <div class="content pure-u">
+            <div>
+                <!-- A wrapper for all the blog posts -->
+                <div class="posts">
+                    <h1 class="content-subhead">Profile</h1>
 
-<div id="layout" class="pure-g">
-<div class="content pure-u">
-	<div>
-            <!-- A wrapper for all the blog posts -->
-            <div class="posts">
-                <h1 class="content-subhead">Profile</h1>
+                    <!-- A single blog post -->
+                    <section class="post">
+                        <header class="post-header">
+                            <h2 class="post-title">Tackgeun You</h2>
+                        </header>
 
-                <!-- A single blog post -->
-                <section class="post">
-                    <header class="post-header">
-                        <h2 class="post-title">Tackgeun You</h2>
-                    </header>
+                        <div class="post-description">
+                            <div id="profile_img">
+                                <img src="tackgeunyou3.jpg" height="200px">
+                            </div>
+                            <div id="profile_contents" class="post-description">
+                                <p>
+                                    <b>Researcher<br /> </b>
 
-                    <div class="post-description">
-			<div id="profile_img">
-				<img src="tackgeunyou3.jpg" height="200px">
-			</div>
-				<div id="profile_contents" class="post-description">
-                        <p>
-				<b>Researcher<br /> </b>
+                                        <a href="https://www.kist.re.kr/eng/research/airobot.do">Artificial Intelligence and Robotics Institute</a><br />
+                                        <a href="https://www.kist.re.kr/eng/index.do">Korea Institute of Science and Technology (KIST)</a><br />
 
-				<a href="https://www.kist.re.kr/eng/research/airobot.do">Artificial Intelligence and Robotics Institute</a><br />
-				<a href="https://www.kist.re.kr/eng/index.do">Korea Institute of Science and Technology (KIST)</a><br />
+                                        <a href="mailto:tackgeun.you@kist.re.kr">tackgeun.you [at] kist [dot] re [dot] kr</a> <br />
+                                        <a href="https://scholar.google.com/citations?user=VDOtnIEAAAAJ">Google scholar</a> <br /><br />
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="post">
+                        <header class="post-header">
+                            <h2 class="post-title">Education</h2>
+                        </header>
 
-				<a href="mailto:tackgeun.you@kist.re.kr">tackgeun.you [at] kist [dot] re [dot] kr</a> <br />
-				<a href="https://scholar.google.com/citations?user=VDOtnIEAAAAJ">Google scholar</a> <br /><br />
-                        </p>
-			</div>
-                    </div>
-                </section>
-                <section class="post">
-                    <header class="post-header">
-                        <h2 class="post-title">Education</h2>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-			<ul>
-				<li>M.S. &amp; Ph.D. integrated course, <a href="http://cv.postech.ac.kr">Computer Vision Lab</a>, <a href="http://cse.postech.ac.kr">Dept. CSE</a>, <a href="http://postech.ac.kr">POSTECH</a> (March 2014 - February 2024)</li>
-				<ul><li>Under supervision of <a href="https://cv.snu.ac.kr/index.php/~bhhan/">Prof. Bohyung Han</a> and <a href="http://cvlab.postech.ac.kr/~suhakwak">Prof. Suha Kwak</a></li></ul>
-			<li>B.S, <a href="http://ee.postech.ac.kr">Dept. EE</a>, <a href="http://postech.ac.kr">POSTECH</a> (March 2010 - February 2014)</li> </ul>
-			</div>
-                    </div>
-                </section>
-                <section class="post">
-                    <header class="post-header">
-                        <h2 class="post-title">Experience</h2>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-			<ul>
-			<li>Research scientist intern, <a href="https://www.kakaobrain.com/">Kakao Brain</a> (September 2021 - September 2022) </li>
-			<li>Visiting student, <a href="http://cv.snu.ac.kr">Computer Vision Lab</a>, <a href="http://asri.snu.ac.kr">ASRI</a> &amp; <a href="http://ee.snu.ac.kr">Dept. ECE</a>,  <a href="http://postech.ac.kr">SNU</a> (April 2018 - February 2024)</li>
-</ul>
-			</div>
-                    </div>
-                </section>
-
-
-            <div class="posts">
-                <h1 class="content-subhead">Research</h1>
-
-                <section class="post">
-                    <header class="post-header">
-                        <h2 class="post-title">Interests</h2>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-				<ul>
-				<li>Spatial Inteliigence</li>
-				<li>Transfer Learning</li>
-				<li>Generative Methods</li>
-				</ul>
-                        </p>
-                    </div>
-                </section>
-
-                <section class="post">
-                    <header class="post-header">
-                        <h2 class="post-title">Publications</h2>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-				<ul>
-				<li>Conferences</li>
-				</ul>
-                        </p>
-			<p>
-				<ul>
-                    <a href="./index.html">ContactField: Implicit Field Representation for Multi-Person Interaction Geometry</a><br />
-                    Hansol Lee, <b>Tackgeun You</b>, Hansoo Park, Woohyeon Shim, Sanghyeon Kim, Hwasup Lim <br />
-                    <b>To Appear in NeurIPS 2024</b>
-				</ul>
-
-				<ul>
-                    <a href="./index.html">Generative Neural Fields by Mixtures of Neural Implicit Functions</a><br />
-                    <b>Tackgeun You</b>, Mijeong Kim, Jungtaek Kim, Bohyung Han <br />
-                    <b>NeurIPS 2023</b> [<a href="https://arxiv.org/abs/2310.19464">ArXiv</a>] [<a href="https://github.com/tackgeun/mNIF">Github</a>]
-				</ul>
-
-				<ul>
-                    <a href="./index.html">Locally Hierarchical Auto-Regressive Modeling for Image Generation</a><br />
-                    <b>Tackgeun You</b>, Saehoon Kim, Chiheon Kim, Doyup Lee, Bohyung Han <br />
-                    <b>NeurIPS 2022</b> [<a href="https://openreview.net/forum?id=NYF6jNTAui">OpenReview</a>] [<a href="https://github.com/kakaobrain/hqtransformer">Github</a>]
-				</ul>
-
-				<ul>
-                    <a href="./index.html">Traffic Accident Benchmark for Causality Recognition</a><br />
-                    <b>Tackgeun You</b>, Bohyung Han, <br />
-                    <b>ECCV 2020</b> [<a href="http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520528.pdf">Paper</a>] [<a href="https://github.com/tackgeun/CausalityInTrafficAccident">Github</a>]
-				</ul>
-
-				<ul>
-                    <a href="./index.html">Domain Specific Batch Normalization for Unsupervised Domain Adaptation</a><br />
-                    Woong-Gi Chang*, <b>Tackgeun You*</b>, Seonguk Seo*, Suha Kwak, Bohyung Han, (*equal contribution) <br />
-                    <b>CVPR 2019</b> [<a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Chang_Domain-Specific_Batch_Normalization_for_Unsupervised_Domain_Adaptation_CVPR_2019_paper.html">Paper</a>] [<a href="https://github.com/wgchang/DSBN">Github</a>]
-				</ul>
-
-				<ul>
-                    <a href="./index.html">Regularizing Deep Neural Networks by Noise: Its Interpretation and Optimization</a><br />
-                    Hyeonwoo Noh, <b>Tackgeun You</b>, Jonghwan Mun, Bohyung Han, <br />
-                    <b>NIPS 2017</b> [<a href="https://papers.nips.cc/paper/7096-regularizing-deep-neural-networks-by-noise-its-interpretation-and-optimization">NIPS Link</a>] [<a href="https://arxiv.org/abs/1710.05179">ArXiv</a>] 
-				</ul>
-
-				<ul>
-                    <a href="./index.html">Online Tracking by Learning Discriminative Saliency Map with Convolutional Neural Network</a><br />
-                    Seunghoon Hong, <b>Tackgeun You</b>, Suha Kwak, Bohyung Han, <br />
-                    <b>ICML 2015</b> [<a href="http://cvlab.postech.ac.kr/research/CNN_SVM">Project Page</a>] [<a href="http://jmlr.org/proceedings/papers/v37/hong15.html">PMLR Link</a>] 
-				</ul>
-                        <p>
-				<ul>
-				<li>Journal</li>
-				</ul>
-                        </p>
-
-
-			<p>
-				<ul>
-                    <a href="./index.html">Bayesian Optimization with Approximate Set Kernels</a><br />
-                    Jungtaek Kim, Michael McCourt, <b>Tackgeun You</b>, Saehoon Kim, Seungjin Choi, <br />
-                    <b>Machine Learning, January 22, 2021</b> [<a href="https://arxiv.org/abs/1905.09780">Paper</a>] 
-				</ul>
-			</div>
-		</section>
-
-
-                <section class="post">
-                    <header class="post-header">
-                        <h2 class="post-title">Project</h2>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
+                        <div class="post-description">
+                            <p>
                                 <ul>
-
-<a href="./index.html">Detection and Tracking for Forward Collision Warning System</a><br />
-Real-time Object Tracking, Distance Estimation in single camera <br />
-erae Automotive, South Korea (Jan 2016~April 2016)
-
+                                    <li>M.S. &amp; Ph.D. integrated course, <a href="http://cv.postech.ac.kr">Computer Vision Lab</a>, <a href="http://cse.postech.ac.kr">Dept. CSE</a>, <a href="http://postech.ac.kr">POSTECH</a> (March 2014 - February 2024)</li>
+                                    <ul>
+                                        <li>Under supervision of <a href="https://cv.snu.ac.kr/index.php/~bhhan/">Prof. Bohyung Han</a> and <a href="http://cvlab.postech.ac.kr/~suhakwak">Prof. Suha Kwak</a></li>
+                                    </ul>
+                                    <li>B.S, <a href="http://ee.postech.ac.kr">Dept. EE</a>, <a href="http://postech.ac.kr">POSTECH</a> (March 2010 - February 2014)</li>
                                 </ul>
-                        </p>
+                        </div>
+                    </section>
+                        <section class="post">
+                            <header class="post-header">
+                                <h2 class="post-title">Experience</h2>
+                            </header>
+
+                            <div class="post-description">
+                                <p>
+                                    <ul>
+                                    <li>Research scientist intern, <a href="https://www.kakaobrain.com/">Kakao Brain</a> (September 2021 - September 2022) </li>
+                                    <li>Visiting student, <a href="http://cv.snu.ac.kr">Computer Vision Lab</a>, <a href="http://asri.snu.ac.kr">ASRI</a> &amp; <a href="http://ee.snu.ac.kr">Dept. ECE</a>,  <a href="http://postech.ac.kr">SNU</a> (April 2018 - February 2024)</li>
+                                    </ul>
+                            </div>
+                        </section>
+
+                    <div class="posts">
+                        <h1 class="content-subhead">Research</h1>
+
+                        <section class="post">
+                            <header class="post-header">
+                                <h2 class="post-title">Interests</h2>
+                            </header>
+
+                            <div class="post-description">
+                                <p>
+                                    <ul>
+                                    <li>Spatial Inteliigence</li>
+                                    <li>Transfer Learning</li>
+                                    <li>Generative Methods</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </section>
+
+                        <section class="post">
+                            <header class="post-header">
+                                <h2 class="post-title">Publications</h2>
+                            </header>
+
+                            <div class="post-description">
+                                <p>
+                                    <ul>
+                                    <li>Conferences</li>
+                                    </ul>
+                                    <ul>
+                                        <a href="./index.html">ContactField: Implicit Field Representation for Multi-Person Interaction Geometry</a><br />
+                                        Hansol Lee, <b>Tackgeun You</b>, Hansoo Park, Woohyeon Shim, Sanghyeon Kim, Hwasup Lim <br />
+                                        <b>To Appear in NeurIPS 2024</b>
+                                    </ul>
+
+                                    <ul>
+                                        <a href="./index.html">Generative Neural Fields by Mixtures of Neural Implicit Functions</a><br />
+                                        <b>Tackgeun You</b>, Mijeong Kim, Jungtaek Kim, Bohyung Han <br />
+                                        <b>NeurIPS 2023</b> [<a href="https://arxiv.org/abs/2310.19464">ArXiv</a>] [<a href="https://github.com/tackgeun/mNIF">Github</a>]
+                                    </ul>
+
+                                    <ul>
+                                        <a href="./index.html">Locally Hierarchical Auto-Regressive Modeling for Image Generation</a><br />
+                                        <b>Tackgeun You</b>, Saehoon Kim, Chiheon Kim, Doyup Lee, Bohyung Han <br />
+                                        <b>NeurIPS 2022</b> [<a href="https://openreview.net/forum?id=NYF6jNTAui">OpenReview</a>] [<a href="https://github.com/kakaobrain/hqtransformer">Github</a>]
+                                    </ul>
+
+                                    <ul>
+                                        <a href="./index.html">Traffic Accident Benchmark for Causality Recognition</a><br />
+                                        <b>Tackgeun You</b>, Bohyung Han, <br />
+                                        <b>ECCV 2020</b> [<a href="http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520528.pdf">Paper</a>] [<a href="https://github.com/tackgeun/CausalityInTrafficAccident">Github</a>]
+                                    </ul>
+
+                                    <ul>
+                                        <a href="./index.html">Domain Specific Batch Normalization for Unsupervised Domain Adaptation</a><br />
+                                        Woong-Gi Chang*, <b>Tackgeun You*</b>, Seonguk Seo*, Suha Kwak, Bohyung Han, (*equal contribution) <br />
+                                        <b>CVPR 2019</b> [<a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Chang_Domain-Specific_Batch_Normalization_for_Unsupervised_Domain_Adaptation_CVPR_2019_paper.html">Paper</a>] [<a href="https://github.com/wgchang/DSBN">Github</a>]
+                                    </ul>
+
+                                    <ul>
+                                        <a href="./index.html">Regularizing Deep Neural Networks by Noise: Its Interpretation and Optimization</a><br />
+                                        Hyeonwoo Noh, <b>Tackgeun You</b>, Jonghwan Mun, Bohyung Han, <br />
+                                        <b>NIPS 2017</b> [<a href="https://papers.nips.cc/paper/7096-regularizing-deep-neural-networks-by-noise-its-interpretation-and-optimization">NIPS Link</a>] [<a href="https://arxiv.org/abs/1710.05179">ArXiv</a>] 
+                                    </ul>
+
+                                    <ul>
+                                        <a href="./index.html">Online Tracking by Learning Discriminative Saliency Map with Convolutional Neural Network</a><br />
+                                        Seunghoon Hong, <b>Tackgeun You</b>, Suha Kwak, Bohyung Han, <br />
+                                        <b>ICML 2015</b> [<a href="http://cvlab.postech.ac.kr/research/CNN_SVM">Project Page</a>] [<a href="http://jmlr.org/proceedings/papers/v37/hong15.html">PMLR Link</a>] 
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                    <li>Journal</li>
+                                    </ul>
+                                    <ul>
+                                        <a href="./index.html">Bayesian Optimization with Approximate Set Kernels</a><br />
+                                        Jungtaek Kim, Michael McCourt, <b>Tackgeun You</b>, Saehoon Kim, Seungjin Choi, <br />
+                                        <b>Machine Learning, January 22, 2021</b> [<a href="https://arxiv.org/abs/1905.09780">Paper</a>] 
+                                    </ul>
+                                </p>
+                            </div>
+                        </section>
+
+
+                        <section class="post">
+                            <header class="post-header">
+                                <h2 class="post-title">Project</h2>
+                            </header>
+
+                            <div class="post-description">
+                                <p>
+                                    <ul>
+                                        <a href="./index.html">Detection and Tracking for Forward Collision Warning System</a><br />
+                                        Real-time Object Tracking, Distance Estimation in single camera <br />
+                                        erae Automotive, South Korea (Jan 2016~April 2016)
+                                    </ul>
+                                </p>
+                            </div>
+                        </section>
                     </div>
-                </section>
-            </div>
 
+                    <div class="posts">
+                        <h1 class="content-subhead">Others</h1>
+                        <section class="post">
+                            <header class="post-header">
+                                <h2 class="post-title">Honor</h2>
+                            </header>
 
-            <div class="posts">
-                <h1 class="content-subhead">Others</h1>
-                <section class="post">
-                    <header class="post-header">
-                        <h2 class="post-title">Honor</h2>
-                    </header>
+                            <div class="post-description">
+                                <p>
+                                    <ul> 
+                                        <li> NAVER Ph.D. Fellowship, NAVER Corp., 2020</li>
+                                        <li> National Science and Engineering Undergraduate Scholarship, Korea Student Aid Foundation (KOSAF), 2010-2013</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </section>
 
-                    <div class="post-description">
-                        <p>
-                               <ul> 
-                               <li> NAVER Ph.D. Fellowship, NAVER Corp., 2020</li>
-                               <li> National Science and Engineering Undergraduate Scholarship, Korea Student Aid Foundation (KOSAF), 2010-2013</li>
-                              </ul>
-                        </p>
+                        <section class="post">
+                            <header class="post-header">
+                                <h2 class="post-title">Teaching Experience</h2>
+                            </header>
+
+                            <div class="post-description">
+                                <p>
+                                    <ul> 
+                                        <li> Teaching Assistant, CSED441 Introduction to Computer Vision (Fall 2016, 2017)</li>
+                                        <li> Teaching Assistant, CSED231 Data Structures, (Fall 2014)</li>
+                                    </ul>
+                                </div>
+                                </p>
+                            </div>
+                        </section>
                     </div>
-                </section>
-
-                <section class="post">
-                    <header class="post-header">
-                        <h2 class="post-title">Teaching Experience</h2>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-                               <ul> 
-                               <li> Teaching Assistant, CSED441 Introduction to Computer Vision (Fall 2016, 2017)</li>
-                               <li> Teaching Assistant, CSED231 Data Structures, (Fall 2014)</li>
-                              </ul>
-                        </p>
-                    </div>
-                </section>
-            </div>
-
-<!--
-            <div class="footer">
-                <div class="pure-menu pure-menu-horizontal pure-menu-open">
-                    <ul>
-                        <li><a href="http://purecss.io/">About Layout CSS</a></li>
-                        <li><a href="http://cv.postech.ac.kr/">Computer Vision Lab</a></li>
-                        <li><a href="http://cse.postech.ac.kr/">Dept. Computer Science and Engineering</a></li>
-                        <li><a href="http://www.postech.ac.kr/">POSTECH</a></li>
-                    </ul>
                 </div>
             </div>
--->
         </div>
     </div>
-</div>
-</div>
-
-
-
-
-
 </body>
 </html>
